@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+a {
+	color: #FFFFFF;
+	margin: 10px;
+	padding: 3px;
+	text-decoration: none;
+	font-size: 12pt;
+}
+	a:hover {
+	background-color: #000;
+}
+	body {
+	background: linear-gradient(-45deg, #1a1516, #382133, #381e3b, #181a29);
+	font-family: 'Red Hat Mono', monospace;
+	margin: 40px auto;
+	max-width: 700px;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+	.container {
+	background-color: #2b2b30;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
+	display: flex;
+	height: 400px;
+	list-style-type: none;
+
+}
+
+.listas {
+	display: flex;
+	flex-direction: row;
+	width: 700px;
+	align-items: center;
+  justify-content: left;
+}
+
+.waifu{
+	height: 400px;
+}
+
+
+.lista {
+	margin: 10px;
+}
+
+li {
+		list-style-type: none;
+}
+
+ul > li > a {
+	color: #b5b5a4;
+	outline: none;
+	font-size: 12pt;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+	.title {
+	color: #FFFFFF;
+	font-size: 12pt;
+	margin-bottom: 15px;	
+}
+/*
+.search {
+	width: 30rem;
+	padding: 0.5rem;
+	border: 1px solid #b5b5a4;
+}
+
+.search-box {
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0);
+	color: #b5b5a4;
+	border: none;
+}
+
+.search-box:focus {
+	outline: none;
+}
+*/
+
+.container {
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+	flex-direction: row;
+}
+
+.lista{
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+}
